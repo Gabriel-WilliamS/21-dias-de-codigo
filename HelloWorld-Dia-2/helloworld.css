@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.6rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgb(248, 0, 0);
+  animation: mov1 2s infinite;
+  position: absolute;
+  font-family: "Cookie", cursive;
+}
+h2 {
+  color: rgb(255, 72, 0);
+  animation: mov2 3s infinite;
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+}
+h3 {
+  color: rgb(255, 94, 0);
+  position: absolute;
+  animation: mov4 3s infinite;
+  font-family: "DynaPuff", cursive;
+}
+h4 {
+  color: rgb(255, 187, 0);
+  animation: mov1 4s infinite;
+  position: absolute;
+
+  font-family: "Oswald", sans-serif;
+}
+h5 {
+  color: rgb(238, 255, 0);
+  animation: mov2 2s infinite;
+  position: absolute;
+  font-family: "Cookie", cursive;
+}
+h6 {
+  color: rgb(165, 253, 0);
+  animation: mov3 3s infinite;
+  position: absolute;
+  font-family: "Silkscreen", cursive;
+}
+a {
+  color: rgb(160, 247, 0);
+  animation: mov5 10s infinite;
+  position: absolute;
+  z-index: 100;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+}
+p {
+  color: rgb(51, 255, 0);
+  animation: mov4 4s infinite;
+  position: absolute;
+
+  font-family: "EB Garamond", serif;
+}
+b {
+  color: rgb(0, 255, 13);
+  animation: mov3 2s infinite;
+  position: absolute;
+
+  font-family: "Oswald", sans-serif;
+}
+
+/* Hello World */
+strong {
+  color: rgb(0, 255, 98);
+  animation: mov4 5s infinite;
+  position: absolute;
+
+  font-family: "Rubik Maze", cursive;
+}
+i {
+  color: rgb(0, 255, 136);
+  animation: mov2 5s infinite;
+  position: absolute;
+
+  font-family: "Permanent Marker", cursive;
+}
+em {
+  color: rgb(0, 255, 221);
+  animation: mov4 5s infinite;
+  position: absolute;
+  font-family: "Rubik Maze", cursive;
+}
+mark {
+  color: rgb(0, 217, 255);
+  animation: mov1 6s infinite;
+  position: absolute;
+  font-family: "Silkscreen", cursive;
+}
+small {
+  color: rgb(0, 132, 255);
+  animation: mov4 6s infinite;
+  position: absolute;
+  font-family: "Ubuntu", sans-serif;
+}
+
+del {
+  color: rgb(0, 38, 255);
+  animation: mov4 6s infinite;
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+}
+ins {
+  color: rgb(89, 0, 255);
+  animation: mov1 7s infinite;
+  position: absolute;
+  font-family: "DynaPuff", cursive;
+}
+sub {
+  color: rgb(255, 0, 255);
+  animation: mov2 7s infinite;
+  position: absolute;
+  font-family: "EB Garamond", serif;
+}
+sup {
+  color: rgb(255, 0, 119);
+  animation: mov4 7s infinite;
+  position: absolute;
+}
+
+th {
+  color: rgb(213, 227, 235);
+  animation: mov1 8s infinite;
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+}
+
+td {
+  color: rgb(5, 226, 196);
+  animation: mov4 8s infinite;
+  position: absolute;
+}
+
+ul li {
+  color: rgb(82, 148, 31);
+  animation: mov3 8s infinite;
+  position: absolute;
+}
+ol li {
+  color: rgb(151, 211, 105);
+  animation: mov4 1s infinite;
+  position: absolute;
+  font-family: "Permanent Marker", cursive;
+}
+
+dt {
+  color: rgb(188, 74, 234);
+  animation: mov2 1s infinite;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+}
+dd {
+  color: rgb(191, 203, 27);
+  animation: mov4 1s infinite;
+  position: absolute;
+  font-family: "Rubik Maze", cursive;
+}
+
+div {
+  color: rgb(144, 33, 25);
+  animation: mov1 9s infinite;
+  position: absolute;
+  font-family: "Silkscreen", cursive;
+}
+title {
+  color: rgb(102, 126, 242);
+  animation: mov2 9s infinite;
+  position: absolute;
+  font-family: "Ubuntu", sans-serif;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  animation: imgEffect 3s infinite;
+}
+
+@keyframes imgEffect {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(0.5);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+@keyframes mov1 {
+  0% {
+    transform: translateX(0px) translateY(-320px) translateZ(0px);
+    font-size: 16px;
+    color: rgb(102, 126, 242);
+  }
+
+  25% {
+    transform: translateX(-320px) translateY(320px) translateZ(-320px);
+    font-size: 5px;
+  }
+
+  50% {
+    transform: translateX(320px) translateY(-320px) translateZ(500px)
+      rotate(1236deg);
+    font-size: 100px;
+    color: rgb(191, 203, 27);
+  }
+
+  75% {
+    transform: translateX(-320px) translateY(320px) translateZ(-500px);
+    font-size: 165px;
+    color: rgb(255, 94, 0);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    font-size: 31px;
+    color: rgb(113, 166, 231);
+  }
+}
+
+@keyframes mov2 {
+  0% {
+    transform: translateX(0px) translateY(-320px) translateZ(0px);
+    font-size: 16px;
+  }
+
+  25% {
+    transform: translateX(-320px) translateY(320px) translateZ(-320px);
+    font-size: 5px;
+    color: rgb(86, 233, 143);
+  }
+
+  50% {
+    transform: translateX(320px) translateY(-320px) translateZ(500px)
+      rotateX(75deg);
+    font-size: 100px;
+    color: rgb(78, 125, 212);
+  }
+
+  75% {
+    transform: translateX(-320px) translateY(320px) translateZ(-500px);
+    font-size: 165px;
+    color: rgb(170, 219, 47);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px) translateZ(0px) rotate(20deg);
+    font-size: 31px;
+    color: rgb(167, 151, 65);
+  }
+}
+
+@keyframes mov3 {
+  0% {
+    transform: translateX(-125px) translateY(-95px) translateZ(-274px);
+    font-size: 94px;
+  }
+
+  25% {
+    transform: translateX(270px) translateY(165px) translateZ(241px);
+    font-size: 69px;
+    color: rgb(76, 37, 229);
+  }
+
+  50% {
+    transform: translateX(-116px) translateY(159px) translateZ(100px)
+      rotate(180deg);
+    font-size: 51px;
+    color: rgb(3, 150, 207);
+  }
+
+  75% {
+    transform: translateX(214px) translateY(159px) translateZ(-123px);
+    font-size: 126px;
+    color: rgb(228, 182, 244);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    font-size: 31px;
+    color: rgb(102, 218, 129);
+  }
+}
+
+@keyframes mov4 {
+  0% {
+    transform: translateX(-852px) translateY(-71px) translateZ(-123px);
+    font-size: 52px;
+    color: red;
+  }
+
+  25% {
+    transform: translateX(262px) translateY(246px) translateZ(-241px);
+    font-size: 39px;
+    color: blue;
+  }
+
+  50% {
+    transform: translateX(-348px) translateY(-532px) translateZ(-100px)
+      rotate(230deg);
+    font-size: 51px;
+    color: rgb(5, 226, 196);
+  }
+
+  75% {
+    transform: translateX(214px) translateY(-159px) translateZ(893px);
+    font-size: 237px;
+  }
+
+  100% {
+    transform: translateX(10px) translateY(50px) translateZ(20px);
+    font-size: 31px;
+    color: rgb(144, 33, 25);
+  }
+}
+
+@keyframes mov5 {
+  0% {
+    transform: translateX(-852px) translateY(-852px) translateZ(123px)
+      rotate(50deg);
+    font-size: 52px;
+  }
+
+  25% {
+    transform: translateX(800px) translateY(900px) translateZ(-241px)
+      rotate(80deg);
+    font-size: 39px;
+  }
+
+  50% {
+    transform: translateX(-782px) translateY(-532px) translateZ(-100px)
+      rotate(120deg);
+    font-size: 51px;
+  }
+
+  75% {
+    transform: translateX(1050px) translateY(-456px) translateZ(893px)
+      rotate(170deg);
+  }
+
+  100% {
+    transform: translateX(-500px) translateY(530px) translateZ(20px)
+      rotate(300deg);
+    font-size: 31px;
+  }
+}
