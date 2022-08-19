@@ -21,7 +21,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 2: Faça um Hello World customizado com fontos, cores e imagens. [Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/HelloWorld-Dia-2)
   <br/>![Dia 2](https://media.discordapp.net/attachments/821362753335853147/1009606117082546306/unknown.png?width=150&height=150)
 
-- Dia 3: Crie um botão animado. [Link do desafio]()
+- Dia 3: Crie um botão animado. [Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/BotaoAnimado-Dia-3)
   <br/>![Dia 3](https://media.discordapp.net/attachments/821362753335853147/1009607919932809277/unknown.png?width=150&height=150)
 
 - Dia 4: Crie uma calculadora. [Link do desafio]()
