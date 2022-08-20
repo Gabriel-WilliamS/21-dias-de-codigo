@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="display">
+        <div class="balls">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <input id="result" type="text" placeholder="---"></input>
+      </div>
+      <div class="buttons">
+        <button onclick="calculate('action', 'c')" class="clear">C</button>
+        <button  onclick="calculate('action', 'del')"class="delete">
+          <img src="./iconDelete.svg" alt="Delete icon" />
+        </button>
+
+        <button onclick="calculate('action', '/')" class="divider">/</button>
+ 
+        <button onclick="calculate('number', 7)" class="seven">7</button>
+        <button onclick="calculate('number', 8)" class="eight">8</button>
+        <button onclick="calculate('number', 9)" class="nine">9</button>
+        <button onclick="calculate('action', '*')" class="multiplication">*</button>
+
+        <button onclick="calculate('number', 4)"class="four">4</button>
+        <button onclick="calculate('number', 5)"class="five">5</button>
+        <button onclick="calculate('number', 6)"class="six">6</button>
+        <button onclick="calculate('action', '-')" class="less">-</button>
+
+        <button onclick="calculate('number', 1)"class="one">1</button>
+        <button onclick="calculate('number', 2)"class="two">2</button>
+        <button onclick="calculate('number', 3)" class="three">3</button>
+        <button onclick="calculate('action', '+')" class="plus">+</button>
+
+        <button onclick="calculate('number', 0)" class="zero">0</button>
+        <button onclick="calculate('action', '.')"class="comma">.</button>
+        <button onclick="calculate('action', '=')" class="equals">=</button> 
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

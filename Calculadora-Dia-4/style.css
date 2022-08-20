@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #efe8de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #cececd;
+}
+
+main {
+  width: 240px;
+  height: 320px;
+  overflow: hidden;
+  border: 1px solid #17181a;
+  border-radius: 10px;
+  background-color: #17181a;
+}
+
+.display {
+  width: 240px;
+  height: 70px;
+  background-color: #1b1b1d;
+  position: relative;
+}
+
+.balls {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  gap: 4px;
+}
+
+.display input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  padding: 0 16px;
+  font-size: 24px;
+}
+.display input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.balls div:nth-child(1) {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+}
+.balls div:nth-child(2) {
+  width: 12px;
+  height: 12px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.balls div:nth-child(3) {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 50%;
+}
+.buttons {
+  width: 100%;
+  height: 250px;
+  display: grid;
+  gap: 8px;
+  grid-template:
+    "clear clear delete delete   "
+    "seven eight nine divider"
+    "four five six multiplication"
+    "one two three less"
+    "zero comma equals plus";
+  padding: 8px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 999999px;
+  font-size: 20px;
+  background-color: #505050;
+  border: none;
+}
+button:hover {
+  filter: brightness(0.8);
+}
+
+button img {
+  width: 20px;
+}
+
+.clear {
+  grid-area: clear;
+  background-color: #d4d4d2;
+  color: #17181a;
+}
+.delete {
+  grid-area: delete;
+  background-color: #d4d4d2;
+}
+.percent {
+  grid-area: percent;
+  background-color: #d4d4d2;
+  color: #17181a;
+}
+.divider {
+  grid-area: divider;
+  background-color: #ff9500;
+}
+
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+
+.multiplication {
+  grid-area: multiplication;
+  background-color: #ff9500;
+}
+
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.less {
+  grid-area: less;
+  background-color: #ff9500;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+
+.plus {
+  grid-area: plus;
+  background-color: #ff9500;
+}
+
+.zero {
+  grid-area: zero;
+}
+.comma {
+  grid-area: comma;
+}
+.equals {
+  grid-area: equals;
+  background-color: #ff9500;
+}
