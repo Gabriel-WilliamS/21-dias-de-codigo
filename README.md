@@ -27,7 +27,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 4: Crie uma calculadora. [Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Calculadora-Dia-4)
   <br/>![Dia 4](https://media.discordapp.net/attachments/821362753335853147/1009608067018666055/unknown.png?width=150&height=150)
 
-- Dia 5: Desenvolva uma página customizada que exiba o erro 404.[Link do desafio]()
+- Dia 5: Desenvolva uma página customizada que exiba o erro 404.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/404Error-Dia-5)
   <br/>![Dia 5](https://media.discordapp.net/attachments/821362753335853147/1009608217728405585/unknown.png?width=150&height=150)
 
 - Dia 6: Crie um card com o efeito glassmorphism.[Link do desafio]()
