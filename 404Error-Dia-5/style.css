@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+  background-color: #20003b;
+  font-family: "Fredoka One", cursive;
+}
+
+h1 {
+  color: rgb(0, 119, 255);
+  font-size: 5rem;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.animation1 {
+  position: absolute;
+  max-width: 700rem;
+  max-height: 700rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateX(-50%);
+  left: 50%;
+
+  top: 25rem;
+}
+
+.animation2 {
+  position: absolute;
+  max-width: 40rem;
+  max-height: 40rem;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  left: 20%;
+
+  top: 30%;
+}
+
+.animation3 {
+  position: absolute;
+  max-width: 40rem;
+  max-height: 40rem;
+  overflow: hidden;
+  right: 10%;
+
+  top: 30%;
+}
+
+.animation4 {
+  position: absolute;
+  max-width: 20rem;
+  max-height: 20rem;
+  overflow: hidden;
+  transform: translateX(-50%);
+  right: 0%;
+
+  top: 10%;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 790px) {
+  :root {
+    font-size: 38.5%;
+  }
+}
