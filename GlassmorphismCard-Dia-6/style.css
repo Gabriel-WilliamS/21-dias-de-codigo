@@ -37,7 +37,7 @@ body * {
   justify-content: center;
   align-items: center;
   margin: 40px 30px;
-  transition: 0.5s;
+  transition: 2s;
 }
 
 .container .box::before {
@@ -163,15 +163,15 @@ body * {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 4rem;
   z-index: 1;
   transform: 0.5s;
   color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .container .box:hover .content {
   left: -25px;
-  padding: 60px 40px;
 }
 
 .container .box .content img {
@@ -216,8 +216,10 @@ body * {
   text-decoration: none;
   font-weight: 700;
   border: none;
+  transition: 0.3s;
 }
 
 .container .box .content button:hover {
-  filter: brightness(0.9);
+  color: #fff;
+  background: #c83bae;
 }
