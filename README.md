@@ -30,7 +30,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 5: Desenvolva uma página customizada que exiba o erro 404.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/404Error-Dia-5)
   <br/>![Dia 5](https://media.discordapp.net/attachments/821362753335853147/1009608217728405585/unknown.png?width=150&height=150)
 
-- Dia 6: Crie um card com o efeito glassmorphism.[Link do desafio]()
+- Dia 6: Crie um card com o efeito glassmorphism.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/GlassmorphismCard-Dia-6)
   <br/>![Dia 6](https://media.discordapp.net/attachments/821362753335853147/1009608338692112394/unknown.png?width=150&height=150)
 
 - Dia 7: Desenvolva um contador.[Link do desafio]()
