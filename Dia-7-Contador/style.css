@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 790px) {
+  :root {
+    font-size: 38.5%;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-color: teal;
+  display: flex;
+  align-items: center;
+}
+
+.countdown {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+
+.box {
+  height: 20rem;
+  border-radius: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+h1 {
+  font-family: "DynaPuff", cursive;
+  color: #fff;
+  letter-spacing: 1rem;
+}
+
+.animation {
+  width: 32rem;
+  height: 32rem;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.trophy1,
+.trophy2 {
+  max-width: 15rem;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.trophy2 {
+  left: initial;
+  right: 10%;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.display-content {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+}
+.display {
+  font-size: 10rem;
+  color: rgb(241, 189, 46);
+  font-family: "Fjalla One", sans-serif;
+}
+
+strong {
+  color: white;
+  font-size: 10rem;
+}
