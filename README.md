@@ -33,5 +33,5 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 6: Crie um card com o efeito glassmorphism.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/GlassmorphismCard-Dia-6)
   <br/>![Dia 6](https://media.discordapp.net/attachments/821362753335853147/1009608338692112394/unknown.png?width=150&height=150)
 
-- Dia 7: Desenvolva um contador.[Link do desafio]()
+- Dia 7: Desenvolva um contador.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-7-Contador)
   <br/>![Dia 7](https://media.discordapp.net/attachments/821362753335853147/1009608415699537981/unknown.png?width=150&height=150)
