@@ -36,7 +36,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 7: Desenvolva um contador.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-7-Contador)
   <br/>![Dia 7](https://media.discordapp.net/attachments/821362753335853147/1009608415699537981/unknown.png?width=150&height=150)
 
-- Dia 8: Desenvolva um toggle theme.[Link do desafio]()
+- Dia 8: Desenvolva um toggle theme.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-8-ToggleTheme)
   <br/>![Dia 8](https://media.discordapp.net/attachments/821362753335853147/1011745228350308443/unknown.png?width=150&height=150)
 
 - Dia 9: Crie uma animação de loading.[Link do desafio]()
