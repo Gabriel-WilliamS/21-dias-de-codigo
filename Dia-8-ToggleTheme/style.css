@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 790px) {
+  :root {
+    font-size: 38.5%;
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5f5ff;
+  transition: all 2s;
+  gap: 9rem;
+  font-family: "DynaPuff", cursive;
+}
+
+p {
+  max-width: 83rem;
+  font-size: clamp(3rem, 2vw, 5rem);
+  text-align: center;
+  color: rgb(0, 14, 77);
+  transition: all 2s;
+  letter-spacing: 3px;
+  transition: all 2s;
+}
+
+span {
+  color: rgb(0, 98, 211);
+  transition: all 2s;
+}
+
+.dark-mode-page p {
+  color: rgb(169, 163, 196);
+}
+.dark-mode-page span {
+  color: rgb(108, 201, 255);
+}
+
+.dark-mode-page {
+  background-color: rgb(46, 46, 46);
+}
+
+.opacityZero {
+  opacity: 0;
+  transition: all 1s;
+}
+
+button {
+  background: none;
+  width: 20rem;
+  height: 9rem;
+  position: relative;
+  border: none;
+  border-radius: 120rem;
+  transition: all 2s;
+  user-select: none;
+  box-shadow: 0 0 7rem rgb(255, 196, 0);
+}
+.dark-mode-page button {
+  box-shadow: 0 0 5rem rgb(184, 184, 184);
+}
+
+.hide {
+  display: none;
+}
+
+button * {
+  user-select: none;
+}
+button > img {
+  position: absolute;
+  width: 20rem;
+  height: 9rem;
+  top: 0;
+  right: 0;
+  transition: all 2s;
+}
+
+.switch img.moveSwitchDark {
+  animation: moveSwitchDark 2s forwards;
+}
+.switch img.moveSwitchLight {
+  animation: moveSwitchLight 2s forwards;
+}
+
+.switch img {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+  transition: all 2s;
+}
+
+@keyframes moveSwitchDark {
+  to {
+    transform: translateX(-11rem);
+  }
+  from {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveSwitchLight {
+  to {
+    transform: translateX(0rem);
+  }
+  from {
+    transform: translateX(-11rem);
+  }
+}

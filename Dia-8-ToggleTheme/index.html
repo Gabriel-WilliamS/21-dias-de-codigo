@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=swap"
+      rel="stylesheet"
+    />
+    <title>Toggle Theme</title>
+  </head>
+
+  <body>
+    <button class="ToggleButton">
+      <img
+        class="dark-mode opacityZero"
+        src="./bg-dark.png"
+        alt="Background Image dark mode"
+      />
+      <img
+        class="light-mode"
+        src="./bg-light.png"
+        alt="Background Image light mode"
+      />
+      <div class="switch">
+        <img class="light-mode" src="./SwitchSun.png" alt="Sol" />
+        <img class="dark-mode opacityZero" src="./SwitchMoon.png" alt="Lua" />
+      </div>
+    </button>
+    <p class="p1 hide">
+      <span>Dark Mode</span> é um esquema de cores que usa texto, ícones e
+      elementos de interface gráfica de usuário claros em um fundo escuro.
+    </p>
+    <p class="p2">
+      <span>Light Mode</span> é um esquema de cores que usa texto, ícones e
+      elementos de interface gráfica de usuário escuros em um fundo claro.
+    </p>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
