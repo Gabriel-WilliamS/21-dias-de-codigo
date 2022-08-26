@@ -45,7 +45,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 10: Utilize a lib Particle.js do JavaScript.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-10-ParticleJS)
   <br/>![Dia 10](https://media.discordapp.net/attachments/821362753335853147/1011745678155857930/unknown.png?width=150&height=150)
 
-- Dia 11: Crie o layout de um formulário de login.[Link do desafio]()
+- Dia 11: Crie o layout de um formulário de login.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-11-LayoutLogin)
   <br/>![Dia 11](https://media.discordapp.net/attachments/821362753335853147/1011745801598423112/unknown.png?width=150&height=150)
 
 - Dia 12: Desenvolva uma galeria de imagens.[Link do desafio]()
