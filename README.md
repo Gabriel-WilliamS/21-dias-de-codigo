@@ -42,7 +42,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 9: Crie uma animação de loading.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-9-LoadingAnimate)
   <br/>![Dia 9](https://media.discordapp.net/attachments/821362753335853147/1011745483049422868/unknown.png?width=150&height=150)
 
-- Dia 10: Utilize a lib Particle.js do JavaScript.[Link do desafio]()
+- Dia 10: Utilize a lib Particle.js do JavaScript.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-10-ParticleJS)
   <br/>![Dia 10](https://media.discordapp.net/attachments/821362753335853147/1011745678155857930/unknown.png?width=150&height=150)
 
 - Dia 11: Crie o layout de um formulário de login.[Link do desafio]()
