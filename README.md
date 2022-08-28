@@ -51,7 +51,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 12: Desenvolva uma galeria de imagens.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-12-ImageGallery)
   <br/>![Dia 12](https://media.discordapp.net/attachments/821362753335853147/1011745915285012591/unknown.png?width=150&height=150)
 
-- Dia 13: Desenvolva um menu responsivo.[Link do desafio]()
+- Dia 13: Desenvolva um menu responsivo.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-13-MenuResponsivo)
   <br/>![Dia 13](https://media.discordapp.net/attachments/821362753335853147/1011746113050652682/unknown.png?width=150&height=150)
 
 - Dia 14: Crie um formulário de quizzes.[Link do desafio]()
