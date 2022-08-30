@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Duo english</title>
+  </head>
+  <body>
+    <div class="title">
+      <lottie-player
+        src="https://assets5.lottiefiles.com/packages/lf20_4xPUaq.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+      <h1>Quiz Duo english</h1>
+      <lottie-player
+        src="https://assets5.lottiefiles.com/packages/lf20_4xPUaq.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+    </div>
+
+    <div class="contentWrapper">
+      <div class="questionsDisplay">
+        <div id="question"></div>
+        <ul>
+          <li class="alternative"></li>
+          <li class="alternative"></li>
+          <li class="alternative"></li>
+          <li class="alternative"></li>
+        </ul>
+      </div>
+
+      <div class="displayResult">
+        <div id="result"></div>
+        <div id="points"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
