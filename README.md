@@ -56,3 +56,24 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 
 - Dia 14: Crie um formulário de quizzes.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-14-Quizz)
   <br/>![Dia 14](https://media.discordapp.net/attachments/821362753335853147/1011746227559338196/unknown.png?width=150&height=150)
+
+- Dia 15: Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício(com nome dos produtos, preço e imagens).[Link do desafio]()
+  <br/>![Dia 15](https://media.discordapp.net/attachments/821362753335853147/1014335927763619850/unknown.png?width=150&height=150)
+
+- Dia 16: Desenvolva um site utilizando alguma API pública.[Link do desafio]()
+  <br/>![Dia 16](https://media.discordapp.net/attachments/821362753335853147/1014336092390051913/unknown.png?width=150&height=150)
+
+- Dia 17: Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada.[Link do desafio]()
+  <br/>![Dia 17](https://media.discordapp.net/attachments/821362753335853147/1014336158379032696/unknown.png?width=150&height=150)
+
+- Dia 18: Desenvolva um gerador de senhas aleatórias.[Link do desafio]()
+  <br/>![Dia 18](https://media.discordapp.net/attachments/821362753335853147/1014336247487004772/unknown.png?width=150&height=150)
+
+- Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.[Link do desafio]()
+  <br/>![Dia 19](https://media.discordapp.net/attachments/821362753335853147/1014336340923527228/unknown.png?width=150&height=150)
+
+- Dia 20: Desenvolva um site de emoji picker.Ao selecionar o emoji, é copiado para a área de transferência.[Link do desafio]()
+  <br/>![Dia 20](https://media.discordapp.net/attachments/821362753335853147/1014336432808136724/unknown.png?width=150&height=150)
+
+- Dia 21: Desenvolva uma página para ser seu portfólio[Link do desafio]()
+  <br/>![Dia 21](https://media.discordapp.net/attachments/821362753335853147/1014336524139118712/unknown.png?width=150&height=150)
