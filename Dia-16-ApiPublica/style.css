@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #72c7d0;
+}
+
+body::before {
+  content: "Rick and Morty";
+  width: 100%;
+  height: 6.8rem;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  background-color: #72c7d0;
+}
+
+header {
+  width: 100%;
+  height: 37.6rem;
+  display: flex;
+  background-color: #fff;
+}
+
+header img {
+  width: 45.5rem;
+  height: 35.1rem;
+  margin-left: 20.6rem;
+  margin-right: 20.6rem;
+  align-self: flex-end;
+}
+
+header .content {
+  width: 68.6rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2.8rem;
+}
+
+header .content h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-top: 4.8rem;
+}
+
+header .content p {
+  font-size: 1.8rem;
+}
+
+nav {
+  width: 100%;
+  height: 7.1rem;
+  background-color: #96c96a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 6.5rem;
+}
+
+ul li {
+  list-style: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+ul li.active {
+  color: #233160;
+}
+
+.buttons {
+  width: 100%;
+  padding: 2rem 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons span {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.buttons button {
+  width: 30rem;
+  height: 5rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.buttons button:hover {
+  filter: brightness(0.8);
+}
+main {
+  width: 100%;
+  padding: 7.2rem 0;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.card {
+  width: 28.7rem;
+  height: 51rem;
+  border-radius: 2rem;
+  background-color: #d7f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card strong {
+  font-size: 2.4rem;
+  color: #233160;
+}
+
+.card div {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+.card div img {
+  width: 100%;
+}
+
+.card span {
+  width: 10.4rem;
+  height: 3.5rem;
+  color: #fff;
+  background-color: #96c96a;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.card p {
+  font-size: 2rem;
+  font-weight: 500;
+}
