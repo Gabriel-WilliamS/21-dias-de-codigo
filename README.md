@@ -60,7 +60,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 15: Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício(com nome dos produtos, preço e imagens).[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-15-Ecommerce)
   <br/>![Dia 15](https://media.discordapp.net/attachments/821362753335853147/1014335927763619850/unknown.png?width=150&height=150)
 
-- Dia 16: Desenvolva um site utilizando alguma API pública.[Link do desafio]()
+- Dia 16: Desenvolva um site utilizando alguma API pública.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-16-ApiPublica)
   <br/>![Dia 16](https://media.discordapp.net/attachments/821362753335853147/1014336092390051913/unknown.png?width=150&height=150)
 
 - Dia 17: Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada.[Link do desafio]()
