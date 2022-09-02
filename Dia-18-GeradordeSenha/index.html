@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Gerador de senha</title>
+  </head>
+  <body>
+    <span class="warnings"> </span>
+    <form>
+      <div class="fields">
+        <label for="salt">Número de Dificuldade :</label>
+        <input type="number" id="salt" />
+      </div>
+      <h1>Gerar senha :</h1>
+      <div class="col-2">
+        <div class="row">
+          <div class="fields">
+            <label for="withNumbers">Com números</label>
+            <input type="checkbox" id="withNumbers" />
+          </div>
+          <div class="fields">
+            <label for="withLetters">Com Letras</label>
+            <input type="checkbox" id="withLetters" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="fields">
+            <label for="withSpecialCharacters">Com caracteres especiais</label>
+            <input type="checkbox" id="withSpecialCharacters" />
+          </div>
+          <div class="fields">
+            <label for="withRandom">Com caracteres aleatórios</label>
+            <input type="checkbox" id="withRandom" />
+          </div>
+        </div>
+      </div>
+
+      <button>Gerar</button>
+    </form>
+    <span class="generated-password-title"></span>
+    <span class="generated-password"></span>
+  </body>
+
+  <script src="./main.js"></script>
+</html>
