@@ -69,7 +69,7 @@ Os participantes que cumprirem o desafio ganham uma mentoria em grupo com a Jake
 - Dia 18: Desenvolva um gerador de senhas aleatórias.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-18-GeradordeSenha)
   <br/>![Dia 18](https://media.discordapp.net/attachments/821362753335853147/1014336247487004772/unknown.png?width=150&height=150)
 
-- Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.[Link do desafio]()
+- Dia 19: Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash.[Link do desafio](https://github.com/Gabriel-WilliamS/21-dias-de-codigo/tree/main/Dia-19-APIUnsplash)
   <br/>![Dia 19](https://media.discordapp.net/attachments/821362753335853147/1014336340923527228/unknown.png?width=150&height=150)
 
 - Dia 20: Desenvolva um site de emoji picker.Ao selecionar o emoji, é copiado para a área de transferência.[Link do desafio]()
