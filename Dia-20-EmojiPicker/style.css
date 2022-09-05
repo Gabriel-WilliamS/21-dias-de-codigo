@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #98d9b6;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 140rem;
+  margin: 0 auto;
+}
+
+header {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #2b2d2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 lottie-player {
+  width: 8rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+p {
+  font-size: 5rem;
+}
+footer {
+  margin-block: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer strong:first-child {
+  margin-right: 2rem;
+}
+footer strong {
+  font-size: 2rem;
+}
+footer lottie-player {
+  margin-right: 0.5rem;
+
+  width: 2rem;
+}
