@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./fonts/Segoe UI.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body * {
+  font-family: "Segoe UI";
+  color: #c9d1d9;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #0d1117;
+}
+
+header {
+  width: 100%;
+  height: 7.2rem;
+  border-bottom: 1px solid #ffffff50;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+body::before {
+  content: "Portfolio 21 days challenges";
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-color: #161b22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  color: #c9d1d9;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+header ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #00000000;
+  padding: 1.6rem;
+  transition: 0.3s;
+}
+header ul li:hover {
+  border-bottom: 2px solid orange;
+  border-radius: 1px;
+}
+
+header ul li.active {
+  border-bottom: 2px solid orange;
+  border-radius: 1px;
+}
+header ul li svg {
+  width: 2rem;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+main {
+  width: 140rem;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2.4rem 10.4rem;
+  display: flex;
+}
+
+main aside {
+  width: 42.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -5rem;
+  padding: 0 1.8rem;
+}
+
+main aside > img {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+main aside strong {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+main aside span {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+main aside p {
+  margin-bottom: 2rem;
+}
+
+main aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main aside ul li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 1010rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff50;
+  padding: 2rem;
+}
+
+.content > a {
+  display: block;
+  width: 100%;
+  height: 35rem;
+  transform-style: preserve-3d;
+}
+
+.card {
+  width: 100%;
+  height: 35rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff20;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform-style: preserve-3d;
+}
+
+.card strong {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(80, 127, 255);
+  gap: 1rem;
+  transition: all 0.5s;
+}
+.card:hover strong {
+  transform: translateZ(30px);
+  transition: all 0.5s;
+}
+.card strong::after {
+  content: "Public";
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff20;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.card > img {
+  border-radius: 0.5rem;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.card:hover > img {
+  transform: translateZ(50px);
+  transition: all 0.5s;
+}
+
+.card:hover p {
+  transform: translateZ(10px);
+  transition: all 0.5s;
+}
+
+.card:hover .stacks {
+  transform: translateZ(50px);
+  transition: all 0.5s;
+}
+
+.stacks {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  text-transform: lowercase;
+}
+
+.stacks .html,
+.stacks .css,
+.stacks .javascript,
+.stacks .github,
+.stacks .react,
+.stacks .tailwindcss,
+.stacks .vite {
+  width: fit-content;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+}
+
+.stacks .html {
+  background-color: rgb(219, 91, 0);
+}
+.stacks .css {
+  background-color: rgb(0, 76, 255);
+}
+
+.stacks .javascript {
+  background-color: rgb(255, 191, 0);
+  color: black;
+}
+
+.stacks .github {
+  background-color: #000;
+  color: #fff;
+}
+
+.stacks .react {
+  background-color: rgb(0, 88, 230);
+  color: #fff;
+}
+
+.stacks .tailwindcss {
+  background-color: rgb(53, 130, 255);
+  color: #fff;
+}
+
+.stacks .vite {
+  background-image: linear-gradient(to left, #bd34fe, #49c7ff);
+  color: #ffbb13;
+}

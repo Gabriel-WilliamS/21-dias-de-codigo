@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./fonts/Segoe UI.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body * {
+  font-family: "Segoe UI";
+  color: #c9d1d9;
+  font-weight: 400;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #0d1117;
+}
+
+header {
+  width: 100%;
+  height: 7.2rem;
+  border-bottom: 1px solid #ffffff50;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+body::before {
+  content: "Portfólio Gabriel William dev.";
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-color: #161b22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  color: #c9d1d9;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+header ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #00000000;
+  padding: 1.6rem;
+  transition: 0.3s;
+}
+header ul li:hover {
+  border-bottom: 2px solid orange;
+  border-radius: 1px;
+}
+
+header ul li.active {
+  border-bottom: 2px solid orange;
+  border-radius: 1px;
+}
+header ul li svg {
+  width: 2rem;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+main {
+  width: 140rem;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2.4rem 10.4rem;
+  display: flex;
+}
+
+main aside {
+  width: 42.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -5rem;
+  padding: 0 1.8rem;
+}
+
+main aside > img {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+main aside strong {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+main aside span {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+main aside p {
+  margin-bottom: 2rem;
+}
+
+main aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main aside ul li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  width: 1010rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff50;
+  padding: 2rem;
+}
+
+.content span {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.content .container-wave {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+
+.content .container-wave svg {
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.content ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+section.experience {
+  width: 100%;
+}
+
+.experience .line {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff50;
+  margin-block: 1rem;
+}
+.experience h3 {
+  margin-block: 2rem;
+}
+
+.experience .git-status {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-block: 2rem;
+}
+
+.content .container-wave-bottom {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+
+.content .container-wave-bottom svg {
+  position: absolute;
+}
