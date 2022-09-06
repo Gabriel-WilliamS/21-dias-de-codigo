@@ -13,6 +13,30 @@
   font-size: 62.5%;
 }
 
+@media (max-width: 1200px) {
+  :root {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1080px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 790px) {
+  :root {
+    font-size: 38.5%;
+  }
+}
+
 body * {
   font-family: "Segoe UI";
   color: #c9d1d9;
@@ -101,6 +125,7 @@ main aside {
 
 main aside > img {
   width: 30rem;
+  height: 30rem;
   margin-bottom: 2rem;
 }
 
